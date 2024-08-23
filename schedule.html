@@ -60,10 +60,20 @@ body{
 position: relative;
 bottom: 5.5em;
 }
+
+.fade-in-image { animation: fadeIn 3s; }
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
 </style>
 <body>
+<div class="fade-in-image>
+    <img src="schedule.png" alt="Schedule" class="center">
+</div>
 
-<img src="schedule.png" alt="Schedule" class="center">
 
 <div class="navbar">
   <a href="index.html">Wallpaper</a>
